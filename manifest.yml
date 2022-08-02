@@ -1,11 +1,11 @@
   applications:
   - name: onlinecourse-tift059
     routes:
-      - route: host.domain
+      - route: onlinecourse-tift059.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: host.domain/static
+      - route: onlinecourse-tift059.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
